@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <em>I build backend systems, grow engineering teams, and design the workflows<br/>
-  that make AI agents write production-grade code.</em>
+  <em>I build backend systems, lead engineering teams,<br/>
+  and make AI agents write code you'd actually merge.</em>
 </p>
 
 <p align="center">
@@ -20,29 +20,29 @@
 
 ---
 
-## 🧭 What I bring to the table
+## 🧭 What I do
 
 <table align="center">
   <tr>
     <th>🛠️ Engineer</th>
     <th>👥 Engineering Manager</th>
-    <th>🤖 AI-Native Builder</th>
+    <th>🤖 AI Builder</th>
   </tr>
   <tr>
     <td>
-      ~20 years building backend systems that stay up under load — JVM at heart
-      (Java, Scala, Kotlin), fluent in TypeScript and Python, opinionated about
-      clean architecture and system design.
+      20 years of building backend systems that stay up under load.
+      JVM at heart (Java, Scala, Kotlin), also TypeScript and Python.
+      Big on clean architecture and system design.
     </td>
     <td>
-      Leading and scaling engineering teams at Booking.com. I care about
-      growing engineers, shipping predictably, and building teams where
-      quality is a habit — not a heroic effort.
+      Leading and scaling engineering teams at Booking.com.
+      I focus on growing engineers, shipping predictably, and making
+      quality a habit.
     </td>
     <td>
-      I don't just <em>use</em> AI coding agents — I build the guardrails
-      around them: specs, TDD loops, quality gates, and CI-driven agent
-      workflows that close the gap between "AI-generated" and "production-grade."
+      I build the guardrails around AI coding agents: specs, TDD loops,
+      quality gates, and CI-driven workflows that turn AI-generated code
+      into production-grade code.
     </td>
   </tr>
 </table>
@@ -54,17 +54,17 @@
 | Project | What it does | |
 |---|---|---:|
 | **[piv-speckit](https://github.com/galando/piv-speckit)** | PIV (Prime-Implement-Validate) + Spec-Kit: structured specs and strict TDD for AI-assisted development. Works with Claude Code, Cursor, and Copilot. | ⭐ 28 |
-| **[temper](https://github.com/galando/temper)** | A Claude Code plugin that closes the quality gap in AI-generated code — try it in 5 minutes with the [playground](https://github.com/galando/temper-playground). | ⭐ 13 |
-| **[tokenomics](https://github.com/galando/tokenomics)** | CLI that analyzes your complete Claude Code session history, finds behavioral patterns that waste tokens, and coaches you with personalized advice. | ⭐ 8 |
-| **[agentic-sdlc](https://github.com/galando/agentic-sdlc)** | Provider-agnostic GitHub template for an autonomous-agent SDLC: **agents propose, CI decides, a human merges.** | 🧪 |
+| **[temper](https://github.com/galando/temper)** | A Claude Code plugin that closes the quality gap in AI-generated code. Try it in 5 minutes with the [playground](https://github.com/galando/temper-playground). | ⭐ 13 |
+| **[tokenomics](https://github.com/galando/tokenomics)** | CLI that analyzes your Claude Code session history, finds patterns that waste tokens, and gives you personalized advice. | ⭐ 8 |
+| **[agentic-sdlc](https://github.com/galando/agentic-sdlc)** | GitHub template for an autonomous-agent SDLC: **agents propose, CI decides, a human merges.** | 🧪 |
 | **[tank](https://github.com/tankpkg/tank)** | Security-focused package manager for AI agent capabilities. | 🔐 |
 
 <details>
 <summary>🎲 Side quests</summary>
 <br/>
 
-- **[dip-scanner](https://github.com/galando/dip-scanner)** — S&P 500 quality-dip scanner: a Telegram bot that finds strong companies on hard dips, with stabilization evidence.
-- **[world-cup-2026-predictor](https://github.com/galando/world-cup-2026-predictor)** — because engineering rigor should also settle football arguments. ⚽
+- **[dip-scanner](https://github.com/galando/dip-scanner)** - S&P 500 quality-dip scanner: a Telegram bot that finds strong companies on hard dips.
+- **[world-cup-2026-predictor](https://github.com/galando/world-cup-2026-predictor)** - settling football arguments with code. ⚽
 
 </details>
 
@@ -80,7 +80,7 @@ flowchart LR
     D --> E["👤 Human merges"]
 ```
 
-> AI doesn't lower the quality bar — a missing workflow does.
+> AI doesn't lower the quality bar - a missing workflow does.
 > So I build the workflow.
 
 ---
@@ -121,7 +121,7 @@ flowchart LR
 ---
 
 <p align="center">
-  💬 Always happy to talk about engineering leadership, backend architecture,<br/>
+  💬 Happy to talk about engineering leadership, backend architecture,<br/>
   or how to make AI agents ship code you'd actually merge.
 </p>
 
