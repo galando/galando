@@ -24,9 +24,9 @@
 
 <table align="center">
   <tr>
-    <th>🛠️ Engineer</th>
-    <th>👥 Engineering Manager</th>
-    <th>🤖 AI Builder</th>
+    <th width="33%">🛠️ Engineer</th>
+    <th width="33%">👥 Engineering Manager</th>
+    <th width="33%">🤖 AI Builder</th>
   </tr>
   <tr>
     <td>
@@ -49,6 +49,21 @@
 
 ---
 
+## ⚙️ How I ship with AI agents
+
+```mermaid
+flowchart LR
+    spec["Spec - PIV + Spec-Kit"] --> impl["Agents implement - strict TDD"]
+    impl --> gates["Quality gates - Temper"]
+    gates --> ci["CI decides - Agentic SDLC"]
+    ci --> merge["Human merges"]
+```
+
+> AI doesn't lower the quality bar - a missing workflow does.
+> So I build the workflow.
+
+---
+
 ## 🚀 Featured projects
 
 | Project | What it does | |
@@ -67,21 +82,6 @@
 - **[world-cup-2026-predictor](https://github.com/galando/world-cup-2026-predictor)** - settling football arguments with code. ⚽
 
 </details>
-
----
-
-## ⚙️ How I ship with AI agents
-
-```mermaid
-flowchart LR
-    A["📝 Spec<br/>(PIV / Spec-Kit)"] --> B["🤖 Agents implement<br/>(strict TDD)"]
-    B --> C["🛡️ Quality gates<br/>(Temper)"]
-    C --> D["⚙️ CI decides<br/>(Agentic SDLC)"]
-    D --> E["👤 Human merges"]
-```
-
-> AI doesn't lower the quality bar - a missing workflow does.
-> So I build the workflow.
 
 ---
 
@@ -114,8 +114,14 @@ flowchart LR
 ## 📊 GitHub stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=galando&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=galando&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=galando&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
+    <img src="https://github-readme-stats.vercel.app/api?username=galando&show_icons=true&theme=default&hide_border=true&rank_icon=github" alt="GitHub Stats" height="165" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=galando&layout=compact&theme=tokyonight&hide_border=true" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=galando&layout=compact&theme=default&hide_border=true" alt="Top Languages" height="165" />
+  </picture>
 </div>
 
 ---
