@@ -1,0 +1,68 @@
+name: Update profile
+
+on:
+  schedule:
+    - cron: "17 4 * * *" # daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # The metrics action needs a personal access token (repository secret
+      # METRICS_TOKEN). The built in GITHUB_TOKEN is rejected because metrics
+      # reads data outside this repository. Without the secret, this step is
+      # skipped and only the recent activity section is refreshed.
+      - name: Render GitHub metrics
+        if: env.METRICS_TOKEN != ''
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: galando
+          template: classic
+          filename: github-metrics.svg
+          output_action: none
+          config_timezone: Europe/Amsterdam
+          base: header, repositories
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_details: percentage
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+      - name: Copy metrics into the repository
+        if: env.METRICS_TOKEN != ''
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          mkdir -p metrics
+          cp /metrics_renders/github-metrics.svg metrics/github-metrics.svg
+
+      - name: Update recent activity
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/update_activity.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if [ -d metrics ]; then git add metrics; fi
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "Update profile metrics and recent activity"
+            git push
+          fi
