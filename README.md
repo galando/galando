@@ -56,9 +56,9 @@
 
 ```mermaid
 flowchart LR
-    spec["Spec - PIV + Spec-Kit"] --> impl["Agents implement - strict TDD"]
-    impl --> gates["Quality gates - Temper"]
-    gates --> ci["CI decides - Agentic SDLC"]
+    spec["Spec (PIV + Spec-Kit)"] --> impl["Agents implement (strict TDD)"]
+    impl --> gates["Quality gates (Temper)"]
+    gates --> ci["CI decides (Agentic SDLC)"]
     ci --> merge["Human merges"]
 ```
 
@@ -81,8 +81,8 @@ flowchart LR
 <summary>🎲 Side quests</summary>
 <br/>
 
-- **[dip-scanner](https://github.com/galando/dip-scanner)** - S&P 500 quality-dip scanner: a Telegram bot that finds strong companies on hard dips.
-- **[world-cup-2026-predictor](https://github.com/galando/world-cup-2026-predictor)** - settling football arguments with code. ⚽
+- **[dip-scanner](https://github.com/galando/dip-scanner)**: S&P 500 quality-dip scanner, a Telegram bot that finds strong companies on hard dips.
+- **[world-cup-2026-predictor](https://github.com/galando/world-cup-2026-predictor)**: settling football arguments with code. ⚽
 
 </details>
 
