@@ -16,6 +16,9 @@
   <a href="mailto:galando@gmail.com">
     <img src="https://img.shields.io/badge/Email-galando@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
+  <a href="https://github.com/galando?tab=repositories&sort=stargazers">
+    <img src="https://img.shields.io/github/stars/galando?style=for-the-badge&logo=github&label=Total%20stars&color=e3b341" alt="Total GitHub stars" />
+  </a>
 </p>
 
 ---
@@ -66,13 +69,13 @@ flowchart LR
 
 ## 🚀 Featured projects
 
-| Project | What it does | |
-|---|---|---:|
-| **[piv-speckit](https://github.com/galando/piv-speckit)** | PIV (Prime-Implement-Validate) + Spec-Kit: structured specs and strict TDD for AI-assisted development. Works with Claude Code, Cursor, and Copilot. | ⭐ 28 |
-| **[temper](https://github.com/galando/temper)** | A Claude Code plugin that closes the quality gap in AI-generated code. Try it in 5 minutes with the [playground](https://github.com/galando/temper-playground). | ⭐ 13 |
-| **[tokenomics](https://github.com/galando/tokenomics)** | CLI that analyzes your Claude Code session history, finds patterns that waste tokens, and gives you personalized advice. | ⭐ 8 |
-| **[agentic-sdlc](https://github.com/galando/agentic-sdlc)** | GitHub template for an autonomous-agent SDLC: **agents propose, CI decides, a human merges.** | 🧪 |
-| **[tank](https://github.com/tankpkg/tank)** | Security-focused package manager for AI agent capabilities. | 🔐 |
+| Project | What it does | Stars |
+|---|---|:---:|
+| **[piv-speckit](https://github.com/galando/piv-speckit)** | PIV (Prime-Implement-Validate) + Spec-Kit: structured specs and strict TDD for AI-assisted development. Works with Claude Code, Cursor, and Copilot. | <a href="https://github.com/galando/piv-speckit/stargazers"><img src="https://img.shields.io/github/stars/galando/piv-speckit?style=flat-square&logo=github&label=stars&color=e3b341" alt="piv-speckit stars" /></a> |
+| **[temper](https://github.com/galando/temper)** | A Claude Code plugin that closes the quality gap in AI-generated code. Try it in 5 minutes with the [playground](https://github.com/galando/temper-playground). | <a href="https://github.com/galando/temper/stargazers"><img src="https://img.shields.io/github/stars/galando/temper?style=flat-square&logo=github&label=stars&color=e3b341" alt="temper stars" /></a> |
+| **[tokenomics](https://github.com/galando/tokenomics)** | CLI that analyzes your Claude Code session history, finds patterns that waste tokens, and gives you personalized advice. | <a href="https://github.com/galando/tokenomics/stargazers"><img src="https://img.shields.io/github/stars/galando/tokenomics?style=flat-square&logo=github&label=stars&color=e3b341" alt="tokenomics stars" /></a> |
+| **[agentic-sdlc](https://github.com/galando/agentic-sdlc)** | GitHub template for an autonomous-agent SDLC: **agents propose, CI decides, a human merges.** | <a href="https://github.com/galando/agentic-sdlc/stargazers"><img src="https://img.shields.io/github/stars/galando/agentic-sdlc?style=flat-square&logo=github&label=stars&color=e3b341" alt="agentic-sdlc stars" /></a> |
+| **[tank](https://github.com/tankpkg/tank)** | Security-focused package manager for AI agent capabilities. | <a href="https://github.com/tankpkg/tank/stargazers"><img src="https://img.shields.io/github/stars/tankpkg/tank?style=flat-square&logo=github&label=stars&color=e3b341" alt="tank stars" /></a> |
 
 <details>
 <summary>🎲 Side quests</summary>
