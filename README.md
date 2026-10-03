@@ -116,16 +116,17 @@ flowchart LR
 
 ## 📊 GitHub stats
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=galando&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
-    <img src="https://github-readme-stats.vercel.app/api?username=galando&show_icons=true&theme=default&hide_border=true&rank_icon=github" alt="GitHub Stats" height="165" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=galando&layout=compact&theme=tokyonight&hide_border=true" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=galando&layout=compact&theme=default&hide_border=true" alt="Top Languages" height="165" />
-  </picture>
-</div>
+<p align="center">
+  <img src="metrics/github-metrics.svg" alt="GitHub metrics for galando" />
+</p>
+
+---
+
+## ⚡ Recent activity
+
+<!--START_SECTION:activity-->
+_Updated daily by a GitHub Action._
+<!--END_SECTION:activity-->
 
 ---
 
