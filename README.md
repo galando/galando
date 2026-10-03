@@ -1,4 +1,4 @@
-<h1 align="center">Hey, I'm Gal Naor 👋</h1>
+<h1 align="center">Hey, I am Gal Naor 👋</h1>
 
 <p align="center">
   <strong>Engineering Manager @ Booking.com</strong> · Amsterdam 🇳🇱
@@ -6,7 +6,7 @@
 
 <p align="center">
   <em>I build backend systems, lead engineering teams,<br/>
-  and make AI agents write code you'd actually merge.</em>
+  and make AI agents write code you would actually merge.</em>
 </p>
 
 <p align="center">
@@ -62,7 +62,7 @@ flowchart LR
     ci --> merge["Human merges"]
 ```
 
-> AI doesn't lower the quality bar - a missing workflow does.
+> AI does not lower the quality bar; a missing workflow does.
 > So I build the workflow.
 
 ---
@@ -132,7 +132,7 @@ _Updated daily by a GitHub Action._
 
 <p align="center">
   💬 Happy to talk about engineering leadership, backend architecture,<br/>
-  or how to make AI agents ship code you'd actually merge.
+  or how to make AI agents ship code you would actually merge.
 </p>
 
 <p align="center">
