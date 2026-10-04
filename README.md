@@ -125,9 +125,9 @@ flowchart LR
 ## ⚡ Recent activity
 
 <!--START_SECTION:activity-->
-1. 🏷️ Released [9.5.0](https://github.com/galando/temper/releases/tag/9.5.0) of [galando/temper](https://github.com/galando/temper) <sub>2026-10-03</sub>
-2. 💪 Opened PR [#87](https://github.com/galando/temper/pull/87) in [galando/temper](https://github.com/galando/temper) <sub>2026-10-03</sub>
-3. 🔨 Pushed to [galando/temper](https://github.com/galando/temper) <sub>2026-10-02</sub>
+1. 🔨 Pushed to [galando/temper](https://github.com/galando/temper) <sub>2026-10-03</sub>
+2. 🏷️ Released [9.5.0](https://github.com/galando/temper/releases/tag/9.5.0) of [galando/temper](https://github.com/galando/temper) <sub>2026-10-03</sub>
+3. 💪 Opened PR [#87](https://github.com/galando/temper/pull/87) in [galando/temper](https://github.com/galando/temper) <sub>2026-10-03</sub>
 4. 🏷️ Released [9.4.0](https://github.com/galando/temper/releases/tag/9.4.0) of [galando/temper](https://github.com/galando/temper) <sub>2026-09-30</sub>
 5. 💪 Opened PR [#86](https://github.com/galando/temper/pull/86) in [galando/temper](https://github.com/galando/temper) <sub>2026-09-30</sub>
 6. 🏷️ Released [9.3.5](https://github.com/galando/temper/releases/tag/9.3.5) of [galando/temper](https://github.com/galando/temper) <sub>2026-09-29</sub>
