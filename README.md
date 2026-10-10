@@ -125,14 +125,14 @@ flowchart LR
 ## ⚡ Recent activity
 
 <!--START_SECTION:activity-->
-1. 🔨 Pushed to [galando/temper](https://github.com/galando/temper) <sub>2026-10-07</sub>
-2. 🏷️ Released [9.6.7](https://github.com/galando/temper/releases/tag/9.6.7) of [galando/temper](https://github.com/galando/temper) <sub>2026-10-07</sub>
-3. 💪 Opened PR [#95](https://github.com/galando/temper/pull/95) in [galando/temper](https://github.com/galando/temper) <sub>2026-10-07</sub>
-4. 🏷️ Released [9.6.6](https://github.com/galando/temper/releases/tag/9.6.6) of [galando/temper](https://github.com/galando/temper) <sub>2026-10-07</sub>
-5. 💪 Opened PR [#94](https://github.com/galando/temper/pull/94) in [galando/temper](https://github.com/galando/temper) <sub>2026-10-07</sub>
-6. 🏷️ Released [9.6.5](https://github.com/galando/temper/releases/tag/9.6.5) of [galando/temper](https://github.com/galando/temper) <sub>2026-10-06</sub>
-7. 💪 Opened PR [#93](https://github.com/galando/temper/pull/93) in [galando/temper](https://github.com/galando/temper) <sub>2026-10-06</sub>
-8. 🏷️ Released [9.6.4](https://github.com/galando/temper/releases/tag/9.6.4) of [galando/temper](https://github.com/galando/temper) <sub>2026-10-06</sub>
+1. 💪 Opened PR [#96](https://github.com/galando/temper/pull/96) in [galando/temper](https://github.com/galando/temper) <sub>2026-10-10</sub>
+2. 🔨 Pushed to [galando/temper](https://github.com/galando/temper) <sub>2026-10-10</sub>
+3. 🏷️ Released [9.6.7](https://github.com/galando/temper/releases/tag/9.6.7) of [galando/temper](https://github.com/galando/temper) <sub>2026-10-07</sub>
+4. 💪 Opened PR [#95](https://github.com/galando/temper/pull/95) in [galando/temper](https://github.com/galando/temper) <sub>2026-10-07</sub>
+5. 🏷️ Released [9.6.6](https://github.com/galando/temper/releases/tag/9.6.6) of [galando/temper](https://github.com/galando/temper) <sub>2026-10-07</sub>
+6. 💪 Opened PR [#94](https://github.com/galando/temper/pull/94) in [galando/temper](https://github.com/galando/temper) <sub>2026-10-07</sub>
+7. 🏷️ Released [9.6.5](https://github.com/galando/temper/releases/tag/9.6.5) of [galando/temper](https://github.com/galando/temper) <sub>2026-10-06</sub>
+8. 💪 Opened PR [#93](https://github.com/galando/temper/pull/93) in [galando/temper](https://github.com/galando/temper) <sub>2026-10-06</sub>
 <!--END_SECTION:activity-->
 
 ---
