@@ -125,7 +125,7 @@ flowchart LR
 ## ⚡ Recent activity
 
 <!--START_SECTION:activity-->
-1. 🔨 Pushed to [galando/temper](https://github.com/galando/temper) <sub>2026-10-30</sub>
+1. 🔨 Pushed to [galando/temper](https://github.com/galando/temper) <sub>2026-10-31</sub>
 2. 🏷️ Released [9.7.5](https://github.com/galando/temper/releases/tag/9.7.5) of [galando/temper](https://github.com/galando/temper) <sub>2026-11-01</sub>
 3. 💪 Opened PR [#104](https://github.com/galando/temper/pull/104) in [galando/temper](https://github.com/galando/temper) <sub>2026-10-30</sub>
 4. 🔨 Pushed to [galando/dip-scanner](https://github.com/galando/dip-scanner) <sub>2026-10-26</sub>
