@@ -16,14 +16,19 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       # The metrics action needs a personal access token (repository secret
       # METRICS_TOKEN). The built in GITHUB_TOKEN is rejected because metrics
       # reads data outside this repository. Without the secret, this step is
-      # skipped and only the recent activity section is refreshed.
+      # skipped and only the recent activity section is refreshed. If the token
+      # is expired or revoked ("Bad credentials"), the step fails softly: the
+      # previous metrics image is kept and the activity section still updates.
       - name: Render GitHub metrics
+        id: metrics
         if: env.METRICS_TOKEN != ''
+        continue-on-error: true
+        timeout-minutes: 10
         env:
           METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
         uses: lowlighter/metrics@latest
@@ -41,10 +46,12 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
+      - name: Warn about failed metrics render
+        if: steps.metrics.outcome == 'failure'
+        run: echo "::warning::Metrics render failed. Check that the METRICS_TOKEN secret is valid and not expired."
+
       - name: Copy metrics into the repository
-        if: env.METRICS_TOKEN != ''
-        env:
-          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        if: steps.metrics.outcome == 'success'
         run: |
           mkdir -p metrics
           cp /metrics_renders/github-metrics.svg metrics/github-metrics.svg
